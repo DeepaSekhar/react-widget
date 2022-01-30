@@ -1,7 +1,8 @@
-import { render } from "@testing-library/react";
 import React from "react";
 import ReactDom from "react-dom";
 import Accordion from "./components/Accordion";
+import Counter from "./components/Counter";
+import Search from "./components/Search";
 const items = [
   { title: "Title 1", content: "deepa1" },
   {
@@ -17,7 +18,7 @@ const items = [
 export default () => {
   return (
     <div>
-      <Accordion items={items} />
+      <Search />
     </div>
   );
 };
